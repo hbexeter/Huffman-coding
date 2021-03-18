@@ -2,6 +2,10 @@
 
 This Huffman Coding algorithm takes a file and de/compresses it.
 
+# Note:
+Before running the code make sure that you have all packages that need to be imported installed
+import operator, re, sys, os, bitstring and json
+
 To compress the file call the function compress(originalfile,treefile,compressedfile)
 
 originalfile = String name of your file e.g. "book.txt"
@@ -13,3 +17,5 @@ To decompress use: decompress(compressedfile,output,treefile):
 Compressedfile = a .bin file that you compressed
 output = the output location for the uncompressed file
 treefile = the location of your tree file
+
+
